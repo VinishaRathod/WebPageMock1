@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(16, 74, 173, 0.936);
+    height:50px;
+    margin-top: 10px;
+    margin-left: 6px;
+    margin-right: 6px;
+    padding-right:4px;
+    padding-left:4px;
+}
+.header .icons i{
+    padding: 0.5rem;
+}
+.left-sidebar .humburger{
+    background-color: rgb(190, 30, 164);
+    color: white;
+}
+.left-sidebar p{
+    display: inline-block;
+    height:20px;
+    width:160px;
+    padding :13px;
+    display: flex;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    justify-content: space-between;
+}
+.left-sidebar a{
+    text-decoration: none;
+    color: grey;
+    padding: .5rem;
+}
+.left-sidebar .links{
+    margin-top: 14px;
+    display: flex;
+    margin: 10px ;
+}
+.left-sidebar .code-generator{
+    margin-top: 7px;
+    color: grey;
+}
+.left-sidebar h2{
+    margin-top: 10px;
+}
+.right-section{
+    background-color: rgb(135, 206, 235);
+    display: flex;
+    flex-direction: column;
+    width: 1068px;
+}
+.right-section .cards-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.header .icons{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    padding:20px;
+    padding-left: 50px;
+}
+.cards-container .cards{
+    height: 300px;
+    width:200px;
+}
+.cards-container .cards h2{
+    height:55px;
+    padding-left: 0.5rem;
+    font-size: 19px;
+}
+.cards-container .cards p{
+    height: 80px;
+}
+.cards-container #blue-box{
+    background-color: lightblue;
+    color: white;
+    padding-top: 4.5rem;
+    padding-left: .5rem;
+}
+.cards-container .blue-box h2{
+    color: lightblue;
+    padding-top: 1.5rem;
+}
+.right-section .heading{
+    color:white;
+    font-size: 22px;
+    padding: 40px;
+}
+.cards-container #orange-box{
+    background-color: orange;
+    color: white;
+    padding-top: 4.5rem;
+    padding-left: .5rem;
+}
+.left-sidebar div{
+    display: flex;
+    flex-direction: column;
+}
+.cards-container .orange-box h2{
+    color: orange;
+    padding-top: 1.5rem;
+}
+.cards-container #red-box{
+    background-color: rgba(255, 0, 0, 0.274);
+    color: white;
+    padding-top: 4.5rem;
+    padding-left: .5rem;
+}
+.cards-container .red-box h2{
+    color: rgba(255, 0, 0, 0.274);
+    padding-top: 1.5rem;
+}
+.cards-container #purple-box{
+    background-color: rgb(112, 1, 112);
+    color: white;
+    padding-top: 4.5rem;
+    padding-left: .5rem;
+}
+.cards-container .purple-box h2{
+    color: rgb(112, 1, 112);
+    padding-top: 1.5rem;
+}
+section {
+    display: flex;
+    height: 524px;
+}
+.header h3{
+    color: white;
+}
+.header p{
+    color: white;
+}
+.left-sidebar{
+    display: flex;
+    flex-direction: column;
+    margin-left: 6px;
+}
